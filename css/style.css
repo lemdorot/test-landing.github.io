@@ -11102,6 +11102,19 @@ h6,
     text-align: center !important;
   }
 
+  .navbar-nav::before {
+    content: "";
+    position: absolute;
+    top: -1.3125rem;
+    left: -3.1875rem;
+    display: block;
+    width: 71.125rem;
+    height: 6.125rem;
+    background-image: url("../img/menu-border.svg");
+    background-size: cover;
+    z-index: -1;
+  }
+
   .main-section__img img {
     width: 75%;
   }
@@ -12323,19 +12336,6 @@ h6,
 
   .fs-4 {
     font-size: 1.5rem !important;
-  }
-
-  .navbar-nav::before {
-    content: "";
-    position: absolute;
-    top: -1.3125rem;
-    left: -3.1875rem;
-    display: block;
-    width: 71.125rem;
-    height: 6.125rem;
-    background-image: url("../img/menu-border.svg");
-    background-size: cover;
-    z-index: -1;
   }
 
   .no-webp .main-section .row{
